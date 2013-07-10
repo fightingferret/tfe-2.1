@@ -1,0 +1,54 @@
+table.cc: In function `char * entry_name(int, int)':
+table.cc:969: warning: ANSI C++ forbids using pointer of type `void *' in arithmetic
+table.cc: In function `void * table_pntr(int, int, int)':
+table.cc:987: warning: ANSI C++ forbids using pointer of type `void *' in subtraction
+table.cc:987: warning: ANSI C++ forbids using pointer of type `void *' in arithmetic
+table.cc:987: warning: ANSI C++ forbids using pointer of type `void *' in arithmetic
+table.cc:990: warning: ANSI C++ forbids using pointer of type `void *' in arithmetic
+table.cc: In function `void load_tables()':
+table.cc:1026: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1029: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1058: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1074: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1080: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1081: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1085: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1086: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1087: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc: In function `void save_tables()':
+table.cc:1119: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc: In function `void do_tset(class Char_Data *, char *)':
+table.cc:1282: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1292: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1300: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1309: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1343: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1352: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1368: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1369: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1376: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1377: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1383: warning: assignment to `int' from `double'
+table.cc:1384: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1385: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1395: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1412: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1413: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1428: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1429: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1439: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1447: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1448: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1466: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc: In function `void do_tstat(class Char_Data *, char *)':
+table.cc:1497: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc: In function `void init_entry(int, char *)':
+table.cc:1651: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1655: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+table.cc:1659: warning: ANSI C++ forbids cast to non-reference type used as lvalue
+tfe.cc: In function `int main(int, char **)':
+tfe.cc:71: warning: implicit declaration of function `int sigset(...)'
+time.cc: In function `char * ltime(const long int &)':
+time.cc:83: parse error before `)'
+time.cc:96: confused by earlier errors, bailing out
+make: *** [time.o] Error 1

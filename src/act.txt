@@ -1,0 +1,44 @@
+act.cc:void act( char_data* to, const char* text, visible_data* ch,
+act.cc:void act( char_data* to, const char* text, visible_data* ch,
+act.cc:          act( rch, text, ch, victim, obj );
+act.cc:      act( rch, text, ch, obj1, obj2 );
+act.cc:      act( rch, text, ch, NULL, string1, string2 );   
+act.cc:      act( rch, text, ch, obj, string1, string2 );   
+act.cc:      act( rch, text, NULL, NULL, string1, string2 );   
+act.cc:      act( rch, text, obj1, obj2 );
+act.cc:      act( rch, text, ch, victim, obj1, obj2 );
+affect.cc:    act( ch, aff_obj_table[ paf->type ].msg_on, ch, obj );
+affect.cc:      act( ch, aff_obj_table[ affect->type ].msg_off, NULL, obj );
+bow.cc:    act( buf, victim, arrow, NULL, TO_ROOM );
+bow.cc:    act( buf, ch, arrow, victim, TO_ROOM );
+bow.cc:  act( buf, ch, arrow, NULL, TO_ROOM );
+bow.cc:  act( buf, victim, arrow, NULL, TO_ALL );
+bow.cc:  act( buf, victim, arrow, NULL, TO_ROOM );
+bow.cc:  act( buf, victim, arrow, NULL, TO_ALL );
+damage.cc:    act( "$n is knocked to $s senses.", victim, NULL, NULL, TO_ROOM );
+exit.cc:  act( ch, prog_msg( action, open_msg[0], open_msg[1] ), exit );
+exit.cc:  act( ch, prog_msg( action, close_msg[0], close_msg[1] ), exit );
+exit.cc:    act( ch, prog_msg( oprog, lock_msg[0], lock_msg[1] ),
+exit.cc:  act( ch, prog_msg( action, lock_door_msg[0], lock_door_msg[1] ),
+exit.cc:    act( ch, prog_msg( oprog, unlock_msg[0], unlock_msg[1] ),
+exit.cc:  act( ch, prog_msg( action, unlock_door_msg[0], unlock_door_msg[1] ),
+exit.cc:  act( ch, prog_msg( action, knock_door_msg[0], knock_door_msg[1] ),
+library.cc:  act( ch, string, ch, victim, obj );
+library.cc:    act( string, ch, obj, victim, TO_NOTVICT );
+magic.cc:    act( ch, spell_act_table[action].self_self,       ch, NULL, reagent );
+magic.cc:  act( ch, spell_act_table[action].self_other, ch, target, reagent );
+magic.cc:      act( victim, spell_act_table[ action ].victim_other,
+monk.cc:  act( "The air around $n fades into a strange array of swirling colors.",
+monk.cc:  act( "$e is enveloped by the colors and when they recede you see $N.",
+monk.cc:    act( "$n's equipment lies scattered on the ground.",
+move.cc:    act( ch, prog_msg( action, leaving_msg[0], leaving_msg[1] ),
+move.cc:    act( rch, prog_msg( action, leaving_msg[2], leaving_msg[3] ),
+social.cc:    act( to, msg, ch, victim, obj );
+social.cc:    act( to, msg, ch, NULL, word );
+social.cc:    act( to, msg, ch, obj );
+social.cc:  act( ch, soc1->char_found, ch, victim );
+social.cc:  act( ch, soc1->dir_self, ch, NULL, dir_table[dir].name );
+social.cc:  act( ch, soc1->obj_self, obj );
+social.cc:  act( ch, soc1->self_obj_self, ch, obj );
+social.cc:  act( ch, soc1->ch_obj_self, ch, victim, obj );
+social.cc:    act( victim, victim->position == POS_SLEEPING
